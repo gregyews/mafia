@@ -1,3 +1,10 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Replace with your main branch name if different
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -10,7 +17,7 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: npm install
-      - name: Build 
+      - name: Build
         run: npm run build
       - name: Move files to build directory
         run: mv dist/* build/ 
