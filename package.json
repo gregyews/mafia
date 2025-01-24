@@ -4,7 +4,7 @@
   "description": "Mafia app",
   "main": "index.js",
   "scripts": {
-    "build": "npx parcel build src/App.tsx -d build" 
+    "build": "parcel build src/App.tsx --dist-dir build" 
   },
   "author": "",
   "license": "ISC",
