@@ -1,5 +1,5 @@
 {
-  "name": "mafia",  // Replace with your project name
+  "name": "mafia",
   "version": "1.0.0",
   "description": "Mafia app",
   "main": "index.js",
