@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 const PracticeTest = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
